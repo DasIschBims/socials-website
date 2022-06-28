@@ -182,3 +182,40 @@ footer a {
 footer a:hover {
     text-decoration: underline solid var(--pink) 2px; 
 }
+
+@media (max-width: 1000px) {
+    * {
+        font-size: 16px;
+    }
+
+    #me {
+        height: 128px;
+        width: 128px;
+        margin-top: 3rem;
+    }
+
+    #background {
+        background-image: url("../img/wave-bg-mobile.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .cardContainer {
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    #cards {
+        flex-direction: column;
+    }
+
+    .mediaButton {
+        margin-top: 0;
+    }
+}
