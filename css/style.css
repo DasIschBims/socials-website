@@ -176,11 +176,18 @@ footer div {
 
 footer a {
     color: var(--primary-text);
-    text-decoration: none;
+    margin-top: 10px;
+    text-decoration: underline solid var(--pink) 2px
 }
 
 footer a:hover {
-    text-decoration: underline solid var(--pink) 2px; 
+    color: var(--pink);
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @media (max-width: 1000px) {
