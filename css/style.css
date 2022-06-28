@@ -147,6 +147,12 @@ body {
     margin-left: -0.75rem;
 }
 
+#osu:hover .osuimg {
+    filter: invert(90%) !important;
+    -webkit-filter: invert(90%) !important;
+    -ms-filter: invert(90%) !important;
+}
+
 footer {
     position: relative;
     bottom: 0;
