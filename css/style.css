@@ -250,7 +250,10 @@ footer a:hover {
     }
 
     #cards {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     .mediaButton {
