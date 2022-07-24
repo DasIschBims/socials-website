@@ -102,11 +102,11 @@ body {
 
 .mediaButton {
     padding: 1.25rem;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .mediaButton a {
-    padding: 1.8rem;
+    padding: 1.25rem;
     border-radius: 5px 15px;
     background-color: var(--bottom-gradient);
     width: 100%;
@@ -128,7 +128,7 @@ body {
 }
 
 .mediaButton a i {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .cardContainer {
@@ -143,18 +143,20 @@ body {
 
 .cardText {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: var(--primary-text);
 }
 
 .card {
-    padding: 1.8rem;
-    min-width: 14rem;
     border-radius: 5px 15px;
     margin-right: 15px;
     margin-left: 15px;
     background-color: var(--bottom-gradient);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1.25rem;
+    min-width: 12rem;
 }
 
 .row {
@@ -165,8 +167,8 @@ body {
 }
 
 .osuimg {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 #osu:hover .osuimg {
@@ -303,4 +305,59 @@ footer a:hover {
         -moz-box-shadow: 0px 0px 10px 5px rgba(247,175,247,0.5);
         box-shadow: 0px 0px 10px 5px rgba(247,175,247,0.5);
     }
+}
+
+@media (min-width: 2200px) {
+
+    .mediaButton a {
+        padding: 1.8rem;
+    }
+
+    .mediaButton a i {
+        font-size: 50px;
+    }
+
+    .mediaButton {
+        padding: 1.8rem;
+        margin-top: 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -0.75rem;
+        margin-left: -0.75rem;
+    }
+    
+    .osuimg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cardContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    
+    .cardText {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: var(--primary-text);
+    }
+    
+    .card {
+        padding: 1.8rem;
+        min-width: 14rem;
+        border-radius: 5px 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+        background-color: var(--bottom-gradient);
+    }
+    
 }
